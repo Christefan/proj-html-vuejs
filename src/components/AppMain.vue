@@ -103,17 +103,68 @@
       </div>
     </section>
     <section class="list-scroll-image-3 my-5">
-      <div class="container text-center">
-        <h2>Prova</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repellat
-          eum ipsum minima molestiae nesciunt, aliquam quaerat voluptates
-          deleniti nulla dolores itaque consequatur debitis provident labore?
-          Veritatis totam minima illo.
-        </p>
+      <div class="container d-flex align-items-center">
+        <div class="text-center">
+          <img src="../assets/img/testimonials-standard-2.png" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            repellat eum ipsum minima molestiae nesciunt, aliquam quaerat
+            voluptates deleniti nulla dolores itaque consequatur debitis
+            provident labore? Veritatis totam minima illo.
+          </p>
 
-        <h2>Joan Collins</h2>
-        <p>STUDENT</p>
+          <h2>Joan Collins</h2>
+          <p>STUDENT</p>
+        </div>
+      </div>
+    </section>
+    <section class="table-information-1">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <ul>
+              <li>What We Do</li>
+              <li>Degree Programme</li>
+              <li>Career Achievements</li>
+              <li>Personal Managment</li>
+              <li>Steps To Success</li>
+              <li>Knowledge Transfer</li>
+            </ul>
+          </div>
+          <div class="col-8">
+            <h2>Learning Possibilities</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              nulla asperiores perspiciatis. Dolorem, sed cumque saepe, eius qui
+              laborum, molestiae odio quidem ipsa consequuntur dolore. Ut
+              aperiam vero expedita voluptates.
+            </p>
+            <div class="row">
+              <div class="mt-3 col-8">
+                <p class="my-4">
+                  <span>V</span> We enrich lives through learning.
+                </p>
+                <p class="my-4">
+                  <span>V</span> Maximizing potential through individual
+                  attention
+                </p>
+                <p class="my-4">
+                  <span>V</span> The trusted name for specialized traning.
+                </p>
+                <p class="my-4">
+                  <span>V</span> People teach.People learn.This is where they
+                  connect.
+                </p>
+              </div>
+              <div class="col-2">
+                <img src="../assets/img/h12-tabs-icon-1.png" />
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
+            <button class="button-t mt-3">TOP</button>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -181,7 +232,7 @@ main {
       font-size: 70px;
     }
     p {
-      font-size: 30px;
+      font-size: 23px;
     }
     .text {
       color: #40c4ff;
@@ -207,8 +258,24 @@ main {
     font-size: 16px;
   }
   .list-scroll-image-3 {
-    height: 90vh;
     background-image: url("../assets/img/h5-parallax-img-1.png");
+    .container {
+      img {
+        width: 10%;
+      }
+      height: 80vh;
+    }
+  }
+  .table-information-1 {
+    li {
+      list-style: none;
+      border: 1px black solid;
+      padding: 20px 43px;
+      font-size: 18px;
+    }
+    img {
+      width: 60px;
+    }
   }
 }
 </style>
