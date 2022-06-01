@@ -167,6 +167,124 @@
         </div>
       </div>
     </section>
+    <section class="table-information-2">
+      <div class="container-fluid">
+        <div class="text container text-center">
+          <h2>Popular Online Courses</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+            odit, perspiciatis quo blanditiis mollitia voluptates assumenda
+            earum quibusdam a recusandae provident quia modi rerum veniam quas
+            vero ratione totam adipisci!
+          </p>
+        </div>
+        <div class="list-information">
+          <ul class="d-flex justify-content-center">
+            <!-- <li class="container-list-information mx-5">
+              <div class="image-list-information">
+                <img src="../assets/img/course-5-f-img.jpg" />
+              </div>
+              <div class="text-list-information">
+                <div class="text-top row">
+                  <div class="col-6">
+                    <h3>Android Developer</h3>
+                    <p>David Sanders</p>
+                  </div>
+                  <div class="col-1 offset-3 py-3">
+                    <span class="">FREE</span>
+                  </div>
+                </div>
+              </div>
+            </li> -->
+            <li class="container-list-information mx-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/img/course-5-f-img.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Android Developer</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati hic corrupti pariatur cupiditate voluptates
+                    perferendis est ipsam, suscipit velit sequi at beatae, in
+                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="container-list-information mx-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/img/course-5-f-img.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Android Developer</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati hic corrupti pariatur cupiditate voluptates
+                    perferendis est ipsam, suscipit velit sequi at beatae, in
+                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="container-list-information mx-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/img/course-5-f-img.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Android Developer</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati hic corrupti pariatur cupiditate voluptates
+                    perferendis est ipsam, suscipit velit sequi at beatae, in
+                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <!-- <li class="container-list-information mx-5">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="../assets/img/course-5-f-img.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Android Developer</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati hic corrupti pariatur cupiditate voluptates
+                    perferendis est ipsam, suscipit velit sequi at beatae, in
+                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
+                  </p>
+                </div>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="table-information-3">
+      <div class="container-fluid">
+        <div class="text-top">
+          <h2>Pricing Plans</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+            voluptas aut sequi itaque earum impedit labore repellat ad aliquam
+            iusto minima porro cumque dolor velit, distinctio, totam quisquam
+            non quidem.
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -275,6 +393,14 @@ main {
     }
     img {
       width: 60px;
+    }
+  }
+  li {
+    list-style: none;
+  }
+  .table-information-2 {
+    .container-list-information {
+      width: calc(100% / 3);
     }
   }
 }
