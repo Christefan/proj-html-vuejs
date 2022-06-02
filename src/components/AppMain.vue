@@ -130,18 +130,21 @@
     <AppSectionLearning />
     <AppSectionCourses />
     <AppSectionPricing />
+    <AppLogo />
   </main>
 </template>
 
 <script>
 import AppSectionLearning from "./AppSectionLearning.vue";
 import AppSectionCourses from "./AppSectionCourses.vue";
+import AppLogo from "./AppLogo.vue";
 import AppSectionPricing from "./AppSectionPricing.vue";
 export default {
   name: "AppMain",
   components: {
     AppSectionPricing,
     AppSectionCourses,
+    AppLogo,
     AppSectionLearning,
   },
 };
