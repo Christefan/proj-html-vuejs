@@ -1,26 +1,25 @@
 <template>
   <header>
     <nav class="navbar navbar-expand position-absolute">
-      <div class="container-fluid py-5 px-5">
+      <div class="container-fluid py-5 mx-5">
         <a class="navbar-brand" href="#">
           <img src="../assets/img/logo-light.png" alt="" />
         </a>
         <div>
           <ul class="navbar-nav">
-            <li class="nav-item mx-5">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <li
+              class="nav-item mx-5"
+              v-for="(elm, index) in voces"
+              :key="index"
+            >
+              <a href="#">{{ elm }}</a>
             </li>
-            <li class="nav-item mx-5">
-              <a class="nav-link" href="#">COURSES</a>
-            </li>
-            <li class="nav-item mx-5">
-              <a class="nav-link" href="#">INSTRUCTORS</a>
-            </li>
-            <li class="nav-item mx-5">
-              <a class="nav-link" href="">EVENTS</a>
-            </li>
-            <li class="nav-item mx-5">
-              <a class="nav-link" href="">PAGES</a>
+            <li
+              class="nav-item mx-5"
+              v-for="(elmi, index) in icons"
+              :key="index"
+            >
+              <i :class="`${elmi}`"></i>
             </li>
           </ul>
         </div>
@@ -32,6 +31,12 @@
 <script>
 export default {
   name: "AppHeader",
+  data() {
+    return {
+      voces: ["HOME", "COURSES", "INSTRUCTORS", "EVENTS", "PAGES", "ELEMENTS"],
+      icons: ["fas fa-search", "fas fa-shopping-bag", "fas fa-bars"],
+    };
+  },
 };
 </script>
 
@@ -40,8 +45,8 @@ img {
   width: 240px;
   height: 50px;
 }
-a {
+i {
   color: white;
-  font-size: 20px;
+  cursor: pointer;
 }
 </style>

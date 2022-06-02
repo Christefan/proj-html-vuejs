@@ -14,7 +14,7 @@
         </div>
       </div>
     </section>
-    <section class="selection-application py-5">
+    <section class="selection-application my-5">
       <div class="container-fluid">
         <div class="row text-center text-wrap justify-content-center">
           <div class="container-application mx-2 py-5">
@@ -44,9 +44,11 @@
         </div>
       </div>
     </section>
-    <section class="list-scroll-image">
+    <section class="list-scroll-image my-5">
       <div class="text px-4">
-        <h2 class="fw-bold">The Trusted Name for In-Home Tutoring.</h2>
+        <h2 class="fw-bold fs-1 col-3">
+          The Trusted Name for In-Home Tutoring.
+        </h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
           possimus ad, cumque, temporibus voluptates, laborum facilis obcaecati
@@ -55,20 +57,23 @@
         </p>
         <a href="">Learn More</a>
       </div>
-      <!-- Correggere row e colonne -->
       <div class="container-fluid">
         <div class="image row align-items-center px-3">
           <div class="col-11">
             <img src="../assets/img/h5-img-1.jpg" alt="" />
           </div>
-          <div class="button-t col-1">
-            <p>></p>
-            <a class="fw-bold fs-5" href="">TOP</a>
+          <div class="col-1">
+            <div>
+              <button class="button-t">
+                <i class="fas fa-chevron-up"></i>
+                <h2 class="fw-bold fs-5" href="">TOP</h2>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="list-scroll-image-2">
+    <section class="list-scroll-image-2 my-5">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-6">
@@ -95,9 +100,13 @@
               </div>
             </div>
           </div>
-          <div class="col-1 button-t">
-            <p>></p>
-            <a class="fw-bold fs-5" href="">TOP</a>
+          <div class="col-1 align-self-end">
+            <div class="mt-3 position-absolute">
+              <button class="button-t">
+                <i class="fas fa-chevron-up"></i>
+                <h2 class="fw-bold fs-5" href="">TOP</h2>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -118,187 +127,28 @@
         </div>
       </div>
     </section>
-    <section class="table-information-1">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-3">
-            <ul>
-              <li>What We Do</li>
-              <li>Degree Programme</li>
-              <li>Career Achievements</li>
-              <li>Personal Managment</li>
-              <li>Steps To Success</li>
-              <li>Knowledge Transfer</li>
-            </ul>
-          </div>
-          <div class="col-8">
-            <h2>Learning Possibilities</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              nulla asperiores perspiciatis. Dolorem, sed cumque saepe, eius qui
-              laborum, molestiae odio quidem ipsa consequuntur dolore. Ut
-              aperiam vero expedita voluptates.
-            </p>
-            <div class="row">
-              <div class="mt-3 col-8">
-                <p class="my-4">
-                  <span>V</span> We enrich lives through learning.
-                </p>
-                <p class="my-4">
-                  <span>V</span> Maximizing potential through individual
-                  attention
-                </p>
-                <p class="my-4">
-                  <span>V</span> The trusted name for specialized traning.
-                </p>
-                <p class="my-4">
-                  <span>V</span> People teach.People learn.This is where they
-                  connect.
-                </p>
-              </div>
-              <div class="col-2">
-                <img src="../assets/img/h12-tabs-icon-1.png" />
-              </div>
-            </div>
-          </div>
-          <div class="col-1">
-            <button class="button-t mt-3">TOP</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="table-information-2">
-      <div class="container-fluid">
-        <div class="text container text-center">
-          <h2>Popular Online Courses</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-            odit, perspiciatis quo blanditiis mollitia voluptates assumenda
-            earum quibusdam a recusandae provident quia modi rerum veniam quas
-            vero ratione totam adipisci!
-          </p>
-        </div>
-        <div class="list-information">
-          <ul class="d-flex justify-content-center">
-            <!-- <li class="container-list-information mx-5">
-              <div class="image-list-information">
-                <img src="../assets/img/course-5-f-img.jpg" />
-              </div>
-              <div class="text-list-information">
-                <div class="text-top row">
-                  <div class="col-6">
-                    <h3>Android Developer</h3>
-                    <p>David Sanders</p>
-                  </div>
-                  <div class="col-1 offset-3 py-3">
-                    <span class="">FREE</span>
-                  </div>
-                </div>
-              </div>
-            </li> -->
-            <li class="container-list-information mx-3">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../assets/img/course-5-f-img.jpg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Android Developer</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati hic corrupti pariatur cupiditate voluptates
-                    perferendis est ipsam, suscipit velit sequi at beatae, in
-                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="container-list-information mx-3">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../assets/img/course-5-f-img.jpg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Android Developer</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati hic corrupti pariatur cupiditate voluptates
-                    perferendis est ipsam, suscipit velit sequi at beatae, in
-                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="container-list-information mx-3">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../assets/img/course-5-f-img.jpg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Android Developer</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati hic corrupti pariatur cupiditate voluptates
-                    perferendis est ipsam, suscipit velit sequi at beatae, in
-                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <!-- <li class="container-list-information mx-5">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="../assets/img/course-5-f-img.jpg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Android Developer</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati hic corrupti pariatur cupiditate voluptates
-                    perferendis est ipsam, suscipit velit sequi at beatae, in
-                    ipsum, neque laborum recusandae voluptatem sapiente culpa.
-                  </p>
-                </div>
-              </div>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="table-information-3">
-      <div class="container-fluid">
-        <div class="text-top">
-          <h2>Pricing Plans</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
-            voluptas aut sequi itaque earum impedit labore repellat ad aliquam
-            iusto minima porro cumque dolor velit, distinctio, totam quisquam
-            non quidem.
-          </p>
-        </div>
-      </div>
-    </section>
+    <AppSectionLearning />
+    <AppSectionCourses />
+    <AppSectionPricing />
   </main>
 </template>
 
 <script>
+import AppSectionLearning from "./AppSectionLearning.vue";
+import AppSectionCourses from "./AppSectionCourses.vue";
+import AppSectionPricing from "./AppSectionPricing.vue";
 export default {
   name: "AppMain",
+  components: {
+    AppSectionPricing,
+    AppSectionCourses,
+    AppSectionLearning,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 main {
-  a {
-    text-decoration: none;
-  }
   .jumbotron {
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,11 +186,11 @@ main {
   .list-scroll-image {
     // background-color: #40c4ff;
     .text {
-      h2 {
-        width: 17.7%;
-      }
       p {
         font-size: 21px;
+      }
+      a {
+        color: #40c4ff;
       }
     }
   }
@@ -382,25 +232,6 @@ main {
         width: 10%;
       }
       height: 80vh;
-    }
-  }
-  .table-information-1 {
-    li {
-      list-style: none;
-      border: 1px black solid;
-      padding: 20px 43px;
-      font-size: 18px;
-    }
-    img {
-      width: 60px;
-    }
-  }
-  li {
-    list-style: none;
-  }
-  .table-information-2 {
-    .container-list-information {
-      width: calc(100% / 3);
     }
   }
 }
